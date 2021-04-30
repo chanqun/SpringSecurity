@@ -35,7 +35,8 @@ Spring Security는 보안과 관련해서 체계적으로 많은 옵션을 제�
 1. XSS
 > 크로스 사이트 스크립팅(Cross-Site Scripting, XSS)은 사용자의 입력값에 의해 자신 혹은 타인의 브라우저에 스크립트를 삽입하여 사용자를 공격하는 기법 
 > 사용자의 입력값이 즉시 나타나는 비 지속적인 유형(Non-persistent)과 사용자의 입력이 데이터베이스(혹은 파일, 브라우저 리소스 등)에 저장되어 지속적(Persistent)으로 발생하는 유형이 있다.
-> 대응방안으로는 HTML Escape / XSS 필터 사용 / Security Response Header 사용 / 적절한 Content-Type Header 사용 / 쿠키속성 HTTP Only 사용 등이 있다.
+>
+> 대응방안으로는 HTML Escape, XSS 필터 사용, Security Response Header 사용, 적절한 Content-Type Header 사용, 쿠키속성 HTTP Only 사용 등이 있다.
 2. SQLi
 > SQL injection은 입력값에 의해 공격자가 원하는 쿼리를 실행하는 공격이다. 
 ```
